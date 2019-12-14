@@ -27,7 +27,7 @@ namespace BancoDeDadosTw.Models
         [StringLength(150)]
         public string NomeUser { get; set; }
         public int? Upload { get; set; }
-        public bool? StatusUser { get; set; }
+        public byte[] StatusUser { get; set; }
 
         [ForeignKey(nameof(IdTipoUsuario))]
         [InverseProperty(nameof(TipoUsuario.Usuario))]

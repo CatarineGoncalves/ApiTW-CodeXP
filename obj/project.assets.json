@@ -6646,11 +6646,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fic\\Desktop\\ApiSquareEvents\\ApiAgendaDeEventos\\BancoDeDadosTw.csproj",
+      "projectUniqueName": "C:\\Users\\fic\\Desktop\\ApiTW-CodeXP\\BancoDeDadosTw.csproj",
       "projectName": "BancoDeDadosTw",
-      "projectPath": "C:\\Users\\fic\\Desktop\\ApiSquareEvents\\ApiAgendaDeEventos\\BancoDeDadosTw.csproj",
+      "projectPath": "C:\\Users\\fic\\Desktop\\ApiTW-CodeXP\\BancoDeDadosTw.csproj",
       "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fic\\Desktop\\ApiSquareEvents\\ApiAgendaDeEventos\\obj\\",
+      "outputPath": "C:\\Users\\fic\\Desktop\\ApiTW-CodeXP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
