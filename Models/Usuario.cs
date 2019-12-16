@@ -18,13 +18,13 @@ namespace BancoDeDadosTw.Models
         public int IdUsuario { get; set; }
         public int? IdTipoUsuario { get; set; }
         [Required]
-        [StringLength(150)]
+        [StringLength(255)]
         public string Email { get; set; }
         [Required]
-        [StringLength(600)]
+        [StringLength(255)]
         public string Senha { get; set; }
         [Required]
-        [StringLength(150)]
+        [StringLength(255)]
         public string NomeUser { get; set; }
         public int? Upload { get; set; }
         public byte[] StatusUser { get; set; }

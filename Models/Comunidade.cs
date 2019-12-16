@@ -11,13 +11,13 @@ namespace BancoDeDadosTw.Models
         public int IdComunidade { get; set; }
         public int? IdUsuario { get; set; }
         [Required]
-        [StringLength(100)]
+        [StringLength(255)]
         public string NomeComunidade { get; set; }
         [Required]
-        [StringLength(100)]
+        [StringLength(255)]
         public string NomeResponsavelComunidade { get; set; }
         [Required]
-        [StringLength(100)]
+        [StringLength(255)]
         public string ContatoComunidade { get; set; }
 
         [ForeignKey(nameof(IdUsuario))]

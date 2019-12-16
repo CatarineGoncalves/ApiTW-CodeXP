@@ -15,7 +15,7 @@ namespace BancoDeDadosTw.Models
         [Key]
         public int IdSala { get; set; }
         [Required]
-        [StringLength(100)]
+        [StringLength(255)]
         public string NomeSala { get; set; }
         [Required]
         [StringLength(255)]

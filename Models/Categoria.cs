@@ -15,7 +15,7 @@ namespace BancoDeDadosTw.Models
         [Key]
         public int IdCategoria { get; set; }
         [Required]
-        [StringLength(100)]
+        [StringLength(255)]
         public string NomeCategoria { get; set; }
         [Required]
         [MaxLength(1)]
